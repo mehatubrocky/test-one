@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Img from "../../assets/image.jpg";
+import { BsCheck2Circle } from "react-icons/bs";
 
 const BannerComponent = () => {
   const texts = ["Text 1", "Text 2", "Text 3"];
@@ -33,7 +34,7 @@ const BannerComponent = () => {
               <div className="flex flex-row">
                 <div className="box-1">
                   <div className="flex flex-row gap-2 ml-2 text font-bold">
-                    <p>i</p>
+                    <BsCheck2Circle size={18} />
                     <p>SMB Solution</p>
                   </div>
                   <div className="line-1"></div>
@@ -43,7 +44,7 @@ const BannerComponent = () => {
                 </div>
                 <div className="box-4 mt-10">
                   <div className="flex flex-row gap-2 ml-2 text font-bold">
-                    <p>i</p>
+                    <BsCheck2Circle size={18} />
                     <p>Enterprise Security</p>
                   </div>
                   <div className="line-4"></div>
@@ -53,48 +54,48 @@ const BannerComponent = () => {
                 </div>
               </div>
               <div className="flex flex-row">
-              <div className="box-2 mt-12">
-                <div className="flex flex-row gap-2 ml-2 text text-orange-500 font-bold">
-                  <p>i</p>
-                  <p>Turkey Security Solution</p>
+                <div className="box-2 mt-12">
+                  <div className="flex flex-row gap-2 ml-2 text text-orange-500 font-bold">
+                    <BsCheck2Circle size={18} />
+                    <p>Turkey Security Solution</p>
+                  </div>
+                  <div className="line-2"></div>
+                  <div className="white-dot-2">
+                    <div className="blue-circle-2"></div>
+                  </div>
                 </div>
-                <div className="line-2"></div>
-                <div className="white-dot-2">
-                  <div className="blue-circle-2"></div>
+                <div className="box-5 mt-20">
+                  <div className="flex flex-row gap-2 ml-2 text font-bold">
+                    <BsCheck2Circle size={18} />
+                    <p>Managed Cloud Solution</p>
+                  </div>
+                  <div className="line-5"></div>
+                  <div className="white-dot-5">
+                    <div className="blue-circle-5"></div>
+                  </div>
                 </div>
-              </div>
-              <div className="box-5 mt-20">
-                <div className="flex flex-row gap-2 ml-2 text font-bold">
-                  <p>i</p>
-                  <p>Managed Cloud Solution</p>
-                </div>
-                <div className="line-5"></div>
-                <div className="white-dot-5">
-                  <div className="blue-circle-5"></div>
-                </div>
-              </div>
               </div>
               <div className="flex flex-row">
-              <div className="box-3 mt-10">
-                <div className="flex flex-row gap-2 ml-2 font-bold">
-                  <p>i</p>
-                  <p>Managed Security Solution</p>
+                <div className="box-3 mt-10">
+                  <div className="flex flex-row gap-2 ml-2 font-bold">
+                    <BsCheck2Circle size={18} />
+                    <p>Managed Security Solution</p>
+                  </div>
+                  <div className="line-3"></div>
+                  <div className="white-dot-3">
+                    <div className="blue-circle-3"></div>
+                  </div>
                 </div>
-                <div className="line-3"></div>
-                <div className="white-dot-3">
-                  <div className="blue-circle-3"></div>
+                <div className="box-6 mt-16">
+                  <div className="flex flex-row gap-2 ml-2 font-bold">
+                    <BsCheck2Circle size={18} />
+                    <p>Bug Bounty Program</p>
+                  </div>
+                  <div className="line-6"></div>
+                  <div className="white-dot-6">
+                    <div className="blue-circle-6"></div>
+                  </div>
                 </div>
-              </div>
-              <div className="box-6 mt-16">
-                <div className="flex flex-row gap-2 ml-2 font-bold">
-                  <p>i</p>
-                  <p>Bug Bounty Program</p>
-                </div>
-                <div className="line-6"></div>
-                <div className="white-dot-6">
-                  <div className="blue-circle-6"></div>
-                </div>
-              </div>
               </div>
             </div>
           </div>
