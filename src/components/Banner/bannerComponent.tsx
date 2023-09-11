@@ -13,10 +13,10 @@ const BannerComponent = () => {
             agaist evolving threads
           </p>
           <p className="mt-4 font-thin">
-            Get a clear picture of your organization's security posture and how
+            {`Get a clear picture of your organization's security posture and how
             prepared you are agains evolving cyber threads befour malicous
             entities,and apply customized recommendations to improve your
-            security programs.
+            security programs.`}
           </p>
           <button className="bg-red-500 rounded-lg p-4 mt-10 text-white capitalize">
             Identify cyber risk today
